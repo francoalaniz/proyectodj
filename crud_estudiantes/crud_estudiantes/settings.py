@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'crud_estudiantes.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'legajos',
-        'USER': 'gabriela',
-        'PASSWORD': '1234',
+        'NAME': 'legajo',
+        'USER': 'root',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306'
     }
